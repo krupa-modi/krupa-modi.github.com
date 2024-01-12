@@ -1119,7 +1119,7 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
+	/* background: url("../images/logo.png") no-repeat center; */
 	background-size: 92px 15px;
 }
 
@@ -1795,9 +1795,12 @@ header .logo a {
 	padding-bottom: 12rem;
 }
 #portfolio .folio-item {
-	padding: 0;
-	position: relative;
-	overflow: hidden;
+	padding: 10px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    border-radius: 10px ;
+	background-color: #f2f2f2;
 }
 #portfolio .folio-item img {
 	vertical-align: middle;
@@ -1867,6 +1870,26 @@ header .logo a {
 	transform: scale(1.05);
 }
 
+.grid-container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr); 
+   grid-template-rows: 200px;
+   gap: 10px;
+   border-radius: 10px;
+}
+.grid-container .folio-item .item-wrap img {
+    object-fit: contain;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    width: 100%;
+    height: 180px;
+}
+
+
+
 /**
  * responsive:
  * portfolio
@@ -1893,7 +1916,7 @@ header .logo a {
  * ------------------------------------------------------------------
  */
 .popup-modal {
-	max-width: 550px;
+	max-width: 50%;
 	background: #FFFFFF;
 	position: relative;
 	margin: 0 auto;
@@ -1945,7 +1968,7 @@ header .logo a {
 	display: block;
 	text-align: center;
 	float: left;
-	width: 50%;
+	width: 100%;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
