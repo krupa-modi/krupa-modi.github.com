@@ -10,8 +10,8 @@ Document: My Portfolio Website
   - Skype: live:.cid.1a7a90c315617927
   - LinkedIn: [Krupa Modi](https://www.linkedin.com/in/krupa-modi-4328a51b4)
   - GitHub: [krupa-modi](https://github.com/krupa-modi)
-  - Phone: 9106647839
-  - WhatsApp: [9106647839](https://wa.me/9106647839)
+  - Phone: 0000000000
+  - WhatsApp: [0000000000](https://wa.me/0000000000)
 
 **About:**
 - Passionate React.js developer with a flair for creating engaging and responsive web applications.
@@ -67,7 +67,7 @@ Document: My Portfolio Website
 **Contact Information:**
 - **Location:** HP8P+4WQ, Godrej Hillside-2 Mahlunge 412115 Pune Maharashtra
 - **Email:** krupa.patel.1625@gmail.com
-- **Phone:** Mobile: 9106647839
+- **Phone:** Mobile: 0000000000
 
 **Social Media:**
 - [Facebook](#)
