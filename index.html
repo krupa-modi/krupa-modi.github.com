@@ -1,1132 +1,907 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en">KKKKKK <!--<![endif]-->
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krupa Modi - Frontend Developer | React.js Expert</title>
+    <meta name="description"
+        content="Frontend Developer with 5+ years experience in React.js, Next.js, Redux Toolkit and TypeScript.">
 
-   <!--- basic page needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>My Portfolio Website</title>
-	<meta name="description" content="">  
-	<meta name="author" content="">
+    <!-- Font Awesome (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-   <!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
- 	<!-- CSS
-   ================================================== -->
-   <link rel="stylesheet" href="css/base.css">  
-   <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css">     
+    <!-- Bootstrap CSS (stable CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
-   <!-- script
-   ================================================== -->   
-	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
-   <!-- favicons
-	================================================== -->
-	<link rel="icon" type="image/png" href="images.png">
+    <!-- FancyBox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 
+    <!-- Your site CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body id="top">
-
-	<!-- header 
-   ================================================== -->
-   <header>   	
-   	<div class="row">
-
-   		<div class="top-bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
-
-	   		<div class="logo">
-		         <a href="index.html"></a>
-		      </div>		      
-
-		   	<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
-						<!-- <li><a href="styles.html" title="">Style Demo</a></li>				 -->
-					</ul>
-				</nav>    		
-   		</div> <!-- /top-bar --> 
-   		
-   	</div> <!-- /row --> 		
-   </header> <!-- /header -->
-
-	<!-- intro section
-   ================================================== -->
-   <section id="intro">   
-
-   	<div class="intro-overlay"></div>	
-
-   	<div class="intro-content">
-   		<div class="row">
-
-   			<div class="col-twelve">
-
-	   			<!-- <h5>Hello, World.</h5> -->
-	   			<h1>I'm Krupa Modi.</h1>
-
-	   			<p class="intro-position">
-	   				<span>React-Js Developer</span>
-	   				<!-- <span>UI/UX Designer</span>  -->
-	   			</p>
-
-	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
-
-	   		</div>  
-   			
-   		</div>   		 		
-   	</div> <!-- /intro-content --> 
-
-   	<ul class="intro-social">        
-		<li><a href="mailto:krupa.patel.1625@gmail.com"><i class="fa fa-envelope"></i></a></li>
-		<li><a href="skype:live:.cid.1a7a90c315617927"><i class="fa fa-skype"></i></a></li>
-		<li><a href="https://www.linkedin.com/in/krupa-modi-4328a51b4" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-		<li><a href="https://github.com/krupa-modi" target="_blank"><i class="fa fa-github"></i></a></li>
-		<li><a href="tel:9106647839"><i class="fa fa-phone"></i></a></li>
-		<li><a href="https://wa.me/9106647839" target="_blank"><i class="fa fa-call"></i></a></li>
-    </ul> <!-- /intro-social -->
-   	
-
-   </section> <!-- /intro -->
-
-
-   <!-- about section
-   ================================================== -->
-   <section id="about">  
-
-   	<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>About</h5>
-   			<h1>Let me introduce myself.</h1>
-
-   			<div class="intro-info">
-
-   				<img src="images/profile-pic.jpg" alt="Profile Picture">
-
-   				<p class="lead">Hello, I'm Krupa Modi, a passionate React.js developer with a flair for creating engaging and responsive web applications. With a strong foundation in front-end development, I specialize in crafting seamless user experiences and bringing designs to life. My commitment to clean code and continuous learning drives my pursuit of innovative solutions.</p>
-   			</div>   			
-
-   		</div>   		
-   	</div> <!-- /section-intro -->
-
-   	<div class="row about-content">
-
-   		<div class="col-six tab-full">
-
-   			<h3>Profile</h3>
-   			<p>Hello, I'm Krupa Modi, a dynamic web developer with 4 years of diverse experience in web development and sales marketing. As a freelance developer for the past year, I excel in transforming designs (Xd, Psd, Figma) into responsive HTML, maintaining company websites, and building strong customer relationships. Currently immersed in React.js, I've crafted various projects showcasing my proficiency in API integration for data storage. Explore my portfolio on GitHub through the link in my resume.In addition to my web development skills, I bring 3 years of expertise in sales marketing, enhancing my ability to understand and meet customer needs. Alongside my passion for continuous learning, I'm well-versed in React Native, offering a comprehensive approach to application development. Eager to contribute my skills and drive innovation, I am seeking opportunities with a forward-thinking organization that values creativity and growth.</p>
-
-   			<ul class="info-list">
-   				<li>
-   					<strong>Fullname:</strong>
-   					<span>Krupa Modi</span>
-   				</li>
-   				<li>
-   					<strong>Birth Date:</strong>
-   					<span>July 25, 1995</span>
-   				</li>
-   				<li>
-   					<strong>Job:</strong>
-   					<span>React Js Developer</span>
-   				</li>
-   				<li>
-   					<strong>Website:</strong>
-   					<span>www.kardswebsite.com</span>
-   				</li>
-   				<li>
-   					<strong>Email:</strong>
-   					<span>krupa.patel.1625@gmail.com</span>
-   				</li>
-
-   			</ul> <!-- /info-list -->
-
-   		</div>
-
-   		<div class="col-six tab-full">
-
-   			<h3>Skills</h3>
-   			<p>I excel in HTML, CSS, and JavaScript, crafting seamless web applications. Proficient in React.js, React Native, and React Bootstrap, I ensure efficient and responsive UI development. I implement Redux for robust state management, ensuring smooth data flow. Leveraging React Graph Libraries and other React-based tools, I enhance data visualization and create interactive interfaces. My foundational understanding of Figma supports translating designs into engaging user experiences, contributing to innovative web solutions.</p>
-
-				<ul class="skill-bars">
-				   <li>
-				   	<div class="progress percent90"><span>95%</span></div>
-				   	<strong>HTML5</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent85"><span>90%</span></div>
-				   	<strong>CSS3</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent70"><span>95%</span></div>
-				   	<strong>BOOTSTRAP 5</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent95"><span>85%</span></div>
-				   	<strong>JAVASCRIPT</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent95"><span>95%</span></div>
-				   	<strong>REACT-JS</strong>
-				   </li>
-				    <li>
-				   	<div class="progress percent95"><span>100%</span></div>
-				   	<strong>REDUX</strong>
-				   </li>
-				    <li>
-				   	<div class="progress percent95"><span>95%</span></div>
-				   	<strong>REACT BOOTSTRAP</strong>
-				   </li>
-				    <li>
-				   	<div class="progress percent95"><span>50%</span></div>
-				   	<strong>REACT NATIVE</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent95"><span>90%</span></div>
-				   	<strong>FIGMA</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent95"><span>90%</span></div>
-				   	<strong>GITHUB</strong>
-				   </li>
-				</ul> <!-- /skill-bars -->		
-
-   		</div>
-
-   	</div>
-
-   	<div class="row button-section">
-   		<div class="col-twelve">
-   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-   			<a href="#" title="Download CV" class="button button-primary">Download CV</a>
-   		</div>   		
-   	</div>
-
-   </section> <!-- /process-->    
-
-
-   <!-- resume Section
-   ================================================== -->
-	<section id="resume" class="grey-section">
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Resume</h5>
-   			<h1>More of my credentials.</h1>
-
-   			<p class="lead">A skilled web developer proficient in HTML, CSS, JavaScript, React.js, React Native, Redux, and React Bootstrap.</p>
-
-   		</div>   		
-   	</div> <!-- /section-intro--> 
-
-   	<div class="row resume-timeline">
-
-   		<div class="col-twelve resume-header">
-
-   			<h2>Work Experience</h2>
-
-   		</div> <!-- /resume-header -->
-
-   		<div class="col-twelve">
-
-   			<div class="timeline-wrap">
-
-				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>React Js Developer</h3>
-	   					<p>December 2022-Present</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Foxberry Technology</h4>
-	   					<p>In my role as a Solution Developer, I specialized in leveraging React.js to create robust and efficient solutions. With a focus on innovation, I actively incorporated cutting-edge React.js libraries for enhanced functionality, particularly in graph visualization projects. Beyond React, my responsibilities spanned diverse areas, showcasing my versatility in HTML, CSS, and other technologies. Excited about pushing the boundaries of development, I also delved into React Native for mobile app solutions. Eager to contribute my skills and expertise to future projects, fostering continuous growth and innovation.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Web Designer As a Freelancer.</h3>
-	   					<p>July 2021-Nov 2022</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Freelancer</h4>
-	   					<p>In my freelance role, I utilized HTML, CSS3, and Bootstrap to develop responsive web designs for various pages. Proficient in HTML, CSS, and Bootstrap, I delivered visually appealing and functional websites.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Web Designer With Sales Marketing Executive</h3>
-	   					<p>March 2019-March 2021</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Parshv Label Pvt ltd.</h4>
-	   					<p>My Company Is a Leading Provider of Industrial Graphics and Labeling Solutions for All Our in India. my Role in This Company is to maintain My Company Website Using HTML,css3, and bootstrap And also Solve website front-end errors and fix a problem in HTML Pages And Communicate with clients for Dealing with business by telephonic.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-   				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Web Designer With Marketing And ERP Generate Report</h3>
-	   					<p>March 2018-Jan 2019</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Safal Infosoft Pvt Ltd</h4>
-	   					<p>My Role in this company is Web Designer With Marketing And ERP Generate Reports and  Additionally, my effective telephonic communication skills ensure seamless interactions with clients, contributing to a holistic and client-focused approach.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-   			</div> <!-- /timeline-wrap -->   			
-
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
-   	
-   	<div class="row resume-timeline">
-
-   		<div class="col-twelve resume-header">
-
-   			<h2>Education</h2>
-
-   		</div> <!-- /resume-header -->
-
-   		<div class="col-twelve">
-
-   			<div class="timeline-wrap">
-
-   				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>React Course</h3>
-	   					<p>July 2022-Nov 2022</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Coding NinJas</h4>
-	   					<p>I honed my React.js skills through an online course, immersing myself in Coding Ninjas. From mastering the fundamentals to advanced techniques, I bring a well-rounded understanding of React.js, acquired through structured online learning.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Bachelor Degree</h3>
-	   					<p>Aug 2013-June 2017</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Sanjaybhai Rajguru College of University, Rajkot</h4>
-	   					<p>BE Computer Engineer</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>11th-12th Science</h3>
-	   					<p>June 2011-March 2013</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>The School of Science</h4>
-	   					<p>11th-12th Science in A+ Group</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-   			</div> <!-- /timeline-wrap -->   			
-
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
-		
-	</section> <!-- /features -->
-
-
-	<!-- Portfolio Section
-   ================================================== -->
-	<section id="portfolio">
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Portfolio</h5>
-   			<h1>Check Out Some of My Works.</h1>
-
-   			<p class="lead">"Explore a glimpse of my expertise. Check out some of my impactful projects that showcase my dedication to creating innovative and seamless solutions. Each work reflects my commitment to excellence in web development."</p>
-
-   		</div>   		
-   	</div> <!-- /section-intro--> 
-
-	<div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      <div class="card">
-    </div>
-    <div class="col-sm-6">
-      <div class="card">
-       
-      </div>
-    </div>
-  </div>
-</div>
-
-
-   	<div class="row portfolio-content">
-		
-
-   		<div class="col-twelve">
-			<div class="grid-container">
-				<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/ftrack.jpeg" alt="F-Track">
-	                  <a href="#modal-01" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">F-Track</h3>	     					    
-		     					    	 <!-- <span class="folio-types">
-		     					       	  Graphic Design
-		     					       </span> -->
-		     				</div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	               
-	        	</div>
-
-				<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/kpi.jpeg" alt="Liberty">
-	                  <a href="#modal-02" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">KPI's</h3>	     					    
-		     					    	 <!-- <span class="folio-types">
-		     					       	  Graphic Design
-		     					       </span> -->
-		     				</div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	               
-	        	</div>
-
-				<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/sps.jpeg" alt="Liberty">
-	                  <a href="#modal-03" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">SPS</h3>	     					    
-		     					    	 <!-- <span class="folio-types">
-		     					       	  Graphic Design
-		     					       </span> -->
-		     				</div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	               
-	        	</div>
-
-				<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/yin.jpeg" alt="Liberty">
-	                  <a href="#modal-04" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">Yin</h3>	     					    
-		     					    	 <!-- <span class="folio-types">
-		     					       	  Graphic Design
-		     					       </span> -->
-		     				</div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-			   </div>
-<!-- 
-			   <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/liberty.jpg" alt="Liberty">
-	                  <a href="#modal-01" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">P-Tax</h3>	     					    
-		     				</div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	
-	        	</div> -->
-
-   			<!-- portfolio-wrapper -->
-	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-
-	         	<!-- <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/liberty.jpg" alt="Liberty">
-	                  <a href="#modal-01" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">Liberty</h3>	     					    
-		     					    	 <span class="folio-types">
-		     					       	  Graphic Design
-		     					       </span>
-		     				</div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	               
-	        	</div> -->
-
-	        	<!-- <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
-	               	<a href="#modal-02" class="overlay">              		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Shutterbug</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Web Design
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        	</div>  -->
-
-	            <!-- <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/clouds.jpg"alt="Clouds">
-	                  <a href="#modal-03" class="overlay">             		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Clouds</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Web Design
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        	</div>  -->
-
-	            <!-- <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/beetle.jpg" alt="Beetle">
-	                  <a href="#modal-04" class="overlay">                  	                 
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Beetle</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Branding
-		     					      </span>		     		
-		     					   </div>  	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        	</div>      -->
-
-	        	<!-- <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
-	                  <a href="#modal-05" class="overlay">             		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Lighthouse</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Web Development
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        	</div>  -->
-
-	            <!-- <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/salad.jpg" alt="Salad">
-	                  <a href="#modal-06" class="overlay">
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Salad</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Branding
-		     					      </span>		     		
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        	</div>    -->
-
-	            <!-- modal popups - begin
-	            ============================================================= -->
-	            <div id="modal-01" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/ftrack.jpeg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>F-Track</h4>		      
-					      <p>Ftrack is an advanced task management system offering a comprehensive solution for streamlined workflow processes. Users initiate their journey by registering, obtaining login access post HR approval. Team leads, organized by specific departments, leverage Ftrack's capabilities to assign tasks efficiently to designated employees. The platform's user-friendly dashboard provides a clear overview of both pending and completed tasks, enhancing individual productivity. Following task completion, team leads initiate thorough reviews, ensuring quality outcomes. Ftrack extends its collaborative functionalities beyond departmental boundaries, empowering managers and team leads from diverse sectors to seamlessly assign and manage tasks. This holistic approach not only optimizes task allocation but also fosters cross-departmental cooperation, enhancing overall organizational efficiency.</p>
-
-					      <!-- <div class="categories">Web Development</div>			                -->
-					   </div>
-
-			         <div class="link-box">
-			            <!-- <a href="http://www.behance.net">Details</a> -->
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-01 -->
-
-				   <div id="modal-02" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/kpi.jpeg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>KPI's dashboardd</h4>		      
-					      <p>This analytics project revolves around tracking user interactions based on birth and death certificates. It meticulously records and analyzes the number of searches, downloads, and visits, presenting comprehensive statistics in a detailed count. The graphical representation, featuring gradient graphs, provides a visually intuitive overview of user engagement, categorized by month, year, and day. The system ingeniously employs tables to display search-specific data, allowing users to seamlessly interpret and comprehend the information. With a user-centric design, this analytics platform not only facilitates efficient data interpretation but also enhances the overall understanding of user behavior in the context of birth and death certificate searches.</p>
-
-					      <!-- <div class="categories">Web Design</div>			                -->
-					   </div>
-
-			         <div class="link-box">
-			            <!-- <a href="http://www.behance.net">Details</a> -->
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-02 -->
-
-				   <div id="modal-03" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/sps.jpeg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>SPS(Safety Positioning System)</h4>		      
-					      <p>The Safety Positioning System is an innovative application designed to elevate personal safety and revolutionize emergency response strategies. It empowers users to trigger an SOS alert promptly in cases of kidnapping, danger, or any perilous situation, utilizing advanced GPS tracking to immediately notify the nearest police station. This streamlined communication facilitates swift assistance and ensures the rapid location of individuals in distress.
-                        Beyond its primary functionalities, the system introduces a state-of-the-art Analytics Dashboard, providing a detailed analysis of cases on a station-by-station basis. This dashboard offers comprehensive insights into weekly statistics and tracks the status of pending cases, enhancing the strategic decision-making capabilities of law enforcement.
-                        Moreover, the Safety Positioning System fosters community engagement by allowing volunteers to register and contribute to the safety network. The application's extensive directory not only includes nearby police stations but also provides information on every police chowki within their jurisdiction. To fortify collaboration, every police officer is mandated to register, creating a symbiotic relationship where citizens and law enforcement work collaboratively to build a safer community.
-                        The inclusion of the Analytics Dashboard represents a pivotal leap forward, providing real-time data analytics to law enforcement. This tool enables authorities to identify trends, allocate resources effectively, and respond proactively to emerging security challenges. The Safety Positioning System, with its dual focus on user empowerment and analytical capabilities, is poised to redefine safety standards and contribute significantly to community well-being.</p>
-
-					      <!-- <div class="categories">Web Design</div>			                -->
-					   </div>
-
-			         <div class="link-box">
-			            <!-- <a href="http://www.behance.net">Details</a> -->
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-03 -->
-
-				   <div id="modal-04" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/yin.jpeg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>YIN Young Inspirators Network</h4>		      
-					      <p>The Young Inspirators Network (YIN) introduces a dynamic application aimed at fostering connectivity and engagement among college students. This comprehensive platform facilitates seamless registration for both colleges and individual students, creating a centralized hub for academic institutions. The app includes an internal election voting system, meticulously recording and displaying the participation of students in elections, thus ensuring transparency in the democratic process.
-                         Administered through a user-friendly website, the YIN app empowers administrators to access detailed information about each registered college, including the total number of students, participation in elections, and engagement in various events. The platform goes beyond mere registration, offering an exhaustive list of colleges and students along with their participation in multiple events, making it a comprehensive network for student interaction.
-                         Furthermore, the admin interface provides a holistic overview of college-specific data, enabling administrators to monitor the extent of student involvement in elections and events. The app's sophisticated design incorporates features such as payment tracking, further enhancing its utility for both administrators and students. The Young Inspiration Network app emerges as a transformative tool, fostering collaboration, transparency, and active participation within the vibrant academic community.</p>
-
-					      <!-- <div class="categories">Branding</div>			                -->
-					   </div>
-
-			         <div class="link-box">
-			            <!-- <a href="http://www.behance.net">Details</a> -->
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-04 -->
-
-				   <!-- <div id="modal-05" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Lighthouse</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-					      <div class="categories">Web Development</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> 
-
- -->
-
-				   <!-- modal popups - end
-	            ============================================================= -->
-
-	         </div> 
-
-   		</div>  <!-- /twelve -->   
-
-   	</div> <!-- /portfolio-content --> 
-		
-	</section> <!-- /portfolio --> 
-
-
-	<!-- CTA Section
-   ================================================== -->
-	<!-- <section id="cta" class="grey-section">
-
-   	<div class="row cta-content">
-
-   		<div class="col-twelve section-ads">  
-
-	     		<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>
-
-		      <p class="lead">
-		      Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
-				Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
-				</p>
-
-				<div class="action">
-			      <a class="button button-primary large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
-		      </div>		     	
-
-   		</div>
-
-   	</div> 
-
-   </section>  -->
-	
-	<!-- services Section
-   ================================================== -->
-	<!-- <section id="services">
-
-		<div class="overlay"></div>
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Services</h5>
-   			<h1>What Can I Do For You?</h1>
-
-   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
-
-   		</div>   		
-   	</div> 
-
-   	<div class="row services-content">
-
-   		<div id="owl-slider" class="owl-carousel services-list">
-
-	      	<div class="service">	
-
-	      		<span class="icon"><i class="icon-earth"></i></span>            
-
-	            <div class="service-content">	
-
-	            	 <h3>Webdesign</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	         		</p>
-	         		
-	         	</div> 	         	 
-
-				</div> 
-
-				<div class="service">	
-
-					<span class="icon"><i class="icon-window"></i></span>                          
-
-	            <div class="service-content">	
-
-	            	<h3>Web Development</h3>  
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	         		</p>
-
-	            </div>	                          
-
-			   </div> 
-
-			   <div class="service">
-
-			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
-
-	            <div class="service-content">
-
-	            	<h3>Branding</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	        			</p> 
-
-	            </div> 	            	               
-
-			   </div> 
-
-				<div class="service">
-
-					<span class="icon"><i class="icon-toggles"></i></span>	              
-
-	            <div class="service-content">
-
-	            	<h3>UI/UX Design</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	         		</p> 
-	         		
-	            </div>                
-
-				</div> 
-
-			   <div class="service">
-
-			   	<span class="icon"><i class="icon-image"></i></span>	            
-
-	            <div class="service-content">
-
-	            	<h3>Graphics Design</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	        			</p> 
-
-	            </div>	               
-
-			   </div> 
-
-			   <div class="service">
-
-			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
-
-	            <div class="service-content">
-
-	            	 <h3>Consultancy</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	        			</p> 
-	        			
-	            </div>	               
-
-			   </div>
-
-	      </div> 
-   		
-   	</div> 
-		
-	</section> -->
-
-
-	<!-- stats Section
-   ================================================== -->
-	<!-- <section id="stats" class="count-up">
-
-		<div class="row">
-			<div class="col-twelve">
-
-				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-pencil-ruler"></i>
-						</div>
-
-						<h3 class="stat-count">
-							1500
-						</h3>
-
-						<h5 class="stat-title">
-							Projects Completed
-						</h5>
-
-					</div> 					
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-users"></i>
-						</div>
-
-						<h3 class="stat-count">
-							900
-						</h3>
-
-						<h5 class="stat-title">
-							Happy Clients
-						</h5>
-
-					</div> 
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-badge"></i>
-						</div>
-
-						<h3 class="stat-count">
-							200
-						</h3>
-
-						<h5 class="stat-title">
-							Awards Received
-						</h5>
-
-					</div> 									
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-light-bulb"></i>
-						</div>
-
-						<h3 class="stat-count">
-							120
-						</h3>
-
-						<h5 class="stat-title">
-							Crazy Ideas
-						</h5>
-
-					</div> 
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-cup"></i>
-						</div>
-
-						<h3 class="stat-count">
-							1500
-						</h3>
-
-						<h5 class="stat-title">
-							Coffee Cups
-						</h5>
-
-					</div> 
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-clock"></i>
-						</div>
-
-						<h3 class="stat-count">
-							7200
-						</h3>
-
-						<h5 class="stat-title">
-							Hours
-						</h5>
-
-					</div> 
-				</div> 
-
-			</div> 
-		</div> 
-
-	</section> -->
-
-	
-   <!-- contact
-   ================================================== -->
-	<section id="contact">
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Contact</h5>
-   			<h1>I'd Love To Hear From You.</h1>
-
-   			<!-- <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p> -->
-
-   		</div> 
-   	</div> 
-
-   	<!-- <div class="row contact-form">
-
-   		<div class="col-twelve">
-
-            <form name="contactForm" id="contactForm" method="post" action="">
-      			<fieldset>
-
-                  <div class="form-field">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                  </div>
-                  <div class="form-field">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	               </div>
-                  <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
-                  <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
-                 <div class="form-field">
-                     <button class="submitform">Submit</button>
-                     <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>                             
-       				      <div class="s-loader">
-								  	<div class="bounce1"></div>
-								  	<div class="bounce2"></div>
-								  	<div class="bounce3"></div>
-								</div>
-							</div>
-                  </div>
-
-      			</fieldset>
-      		</form> 
-
-            <div id="message-warning">            	
-            </div>            
-      		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div>
-
-         </div> 
-   		
-   	</div>  -->
-
-   	<div class="row contact-info">
-
-   		<div class="col-four tab-full">
-
-   			<div class="icon">
-   				<i class="icon-pin"></i>
-   			</div>
-
-   			<h5>Where to find me</h5>
-
-   			<p>
-            HP8P+4WQ, Godrej Hillside-2 Mahlunge 412115 Pune Maharashtra
-            </p>
-
-   		</div>
-
-   		<div class="col-four tab-full collapse">
-
-   			<div class="icon">
-   				<i class="icon-mail"></i>
-   			</div>
-
-   			<h5>Email Me At</h5>
-
-   			<p>krupa.patel.1625@gmail.com
-			   </p>
-
-   		</div>
-
-   		<div class="col-four tab-full">
-
-   			<div class="icon">
-   				<i class="icon-phone"></i>
-   			</div>
-
-   			<h5>Call Me At</h5>
-
-   			<p>
-			   	Mobile: 9106647839
-			   </p>
-
-   		</div>
-   		
-   	</div> <!-- /contact-info -->
-		
-	</section> <!-- /contact -->
-
-
-   <!-- footer
-   ================================================== -->
-
-   <!-- <footer>
-     	<div class="row">
-
-     		<div class="col-six tab-full pull-right social">
-
-     			<ul class="footer-social">        
-			      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-			      <li><a href="#"><i class="fa fa-behance"></i></a></li>
-			      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-			      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-			      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-			   </ul> 
-	      		
-	      </div>
-
-      	<div class="col-eight tab-full">
-	      	<div class="copyright">
-		        	<span>© Copyright 2018 </span> 
-		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span> 
-		        	<span>Distributed by <a href="https://themewagon.com/">themewagon</a></span>	         	
-		         </div>		                  
-	      	</div>
-
-	      	<div id="go-top">
-		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-		      </div>
-
-      	</div>  	
-   </footer>   -->
-
-   <div id="preloader"> 
-    	<div id="loader"></div>
-   </div> 
-
-   <script src="js/jquery-2.1.3.min.js"></script>
-   <script src="js/plugins.js"></script>
-   <script src="js/main.js"></script>
-
+<body>
+    <!-- Navigation Bar with scroll detection -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-icon"><i class="fas fa-code"></i></span>
+                Krupa Modi
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-4">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item">
+                        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Enhanced Hero Section with animations -->
+    <section id="home" class="py-5 py-lg-5 bg-light overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="section-label mb-4 d-inline-block">
+                        <span class="text-uppercase fw-semibold">Hi everyone, I'm Krupa Modi</span>
+                    </div>
+                    <h1 class="display-4 fw-bold mb-4 banner-text">Frontend Developer & React.js Expert</h1>
+                    <p class="lead text-muted mb-4">5+ years of overall experience including 3+ years in frontend with
+                        React.js, Next.js, Redux Toolkit, TypeScript, REST APIs and pixel-perfect UI delivery from
+                        Figma/Adobe XD.</p>
+
+                    <div class="d-flex gap-3 mb-5 flex-wrap">
+                        <a href="mailto:krupa.patel.1625@gmail.com" class="btn-modern">
+                            <span class="me-2">Hire Me Now</span><i class="fa-solid fa-location-arrow"></i>
+                        </a>
+                        <a href="assets/pdf/Krupa_Modi_2026_react_redux.pdf" target="_blank" class="btn btn-lg">
+                            <i class="fas fa-download me-2"></i><span>Download CV</span>
+                        </a>
+                        <a href="assets/pdf/Krupa_Modi_2026_react_redux.pdf" target="_blank"
+                            class="btn btn-dark btn-lg px-3 justify-content-center" title="View Resume">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                        <a href="assets/pdf/Krupa_Cover_Letter_2026.pdf" target="_blank"
+                            class="btn btn-dark btn-lg px-3 justify-content-center" title="View Cover Letter">
+                            <i class="fa-solid fa-file-alt"></i>
+                        </a>
+                    </div>
+
+                    <div>
+                        <p class="text-muted fw-medium mb-3">Find me on:</p>
+                        <div class="d-flex gap-3">
+
+                            <!-- Email -->
+                            <a href="mailto:krupa.patel.1625@gmail.com" class="social-icon" title="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+
+                            <!-- Skype -->
+                            <a href="https://krupa-modi.github.io/" class="social-icon" title="Portfolio"
+                                target="_blank">
+                                <i class="fas fa-globe"></i>
+                            </a>
+
+                            <!-- GitHub -->
+                            <a href="https://github.com/krupa-modi" class="social-icon" title="GitHub" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/krupa-modi-4328a51b4" class="social-icon"
+                                title="LinkedIn" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+
+                            <!-- WhatsApp -->
+                            <a href="https://wa.me/919106647839" class="social-icon" title="WhatsApp" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+
+                            <!-- Phone -->
+                            <a href="tel:+919106647839" class="social-icon" title="Call">
+                                <i class="fas fa-phone"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 position-relative mt-5 mt-md-0" data-aos="fade-down">
+                    <div class="banner-circle">
+                        <img src="assets/images/krupa-modi-old.png" alt="Krupa Modi" class="img-fluid rounded">
+                    </div>
+                    <div class="accent-shape inline-accent-shape-200"></div>
+                    <div class="accent-shape accent-shape-2 inline-accent-shape-120"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section with improved cards -->
+    <section id="services" class="py-5 bg-light overflow-hidden">
+        <div class="container">
+            <div class="mb-5" data-aos="fade-up">
+                <div class="section-label mb-4 d-inline-block">
+                    <span class="text-uppercase fw-semibold">Services & Skills</span>
+                </div>
+                <h2 class="display-6 fw-bold">What I Offer</h2>
+            </div>
+
+            <div class="row g-4">
+                <!-- React Development -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="card h-100 border-0 p-4">
+                        <div class="mb-3 fs-1 text-primary"><i class="fas fa-code"></i></div>
+                        <h5 class="fw-bold mb-3">React.js Development</h5>
+                        <p class="text-muted">
+                            Build scalable SPA applications using React.js, Redux Toolkit, JavaScript (ES6+), and
+                            TypeScript.
+                        </p>
+                        <span class="badge bg-light text-primary p-2">10+ Projects</span>
+                    </div>
+                </div>
+
+                <!-- Next.js -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 border-0 p-4">
+                        <div class="mb-3 fs-1 text-primary"><i class="fas fa-layer-group"></i></div>
+                        <h5 class="fw-bold mb-3">Next.js Development</h5>
+                        <p class="text-muted">
+                            Build fast, scalable, and SEO-friendly web applications using Next.js with modern frontend
+                            architecture and server-side
+                            rendering (SSR).
+                        </p>
+                        <span class="badge bg-light text-primary p-2">10+ Projects</span>
+                    </div>
+                </div>
+
+                <!-- UI / Styling -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 border-0 p-4">
+                        <div class="mb-3 fs-1 text-primary"><i class="fas fa-palette"></i></div>
+                        <h5 class="fw-bold mb-3">UI Engineering</h5>
+                        <p class="text-muted">
+                            Pixel-perfect UI development using HTML5, CSS3, SCSS/Sass, Tailwind, Bootstrap, MUI, and
+                            Figma-to-code workflows.
+                        </p>
+                        <span class="badge bg-light text-primary p-2">30+ Projects</span>
+                    </div>
+                </div>
+
+                <!-- Responsive Design -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 border-0 p-4">
+                        <div class="mb-3 fs-1 text-primary"><i class="fas fa-mobile-alt"></i></div>
+                        <h5 class="fw-bold mb-3">Responsive & Performance</h5>
+                        <p class="text-muted">
+                            Mobile-first responsive design with cross-browser compatibility, performance optimization,
+                            and accessibility best
+                            practices.
+                        </p>
+                        <span class="badge bg-light text-primary p-2">40+ Projects</span>
+                    </div>
+                </div>
+
+                <!-- Figma to Code -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="card h-100 border-0 p-4">
+                        <div class="mb-3 fs-1 text-primary"><i class="fas fa-pen-nib"></i></div>
+                        <h5 class="fw-bold mb-3">Tools, CI/CD & Workflow</h5>
+                        <p class="text-muted">
+                            Git, GitHub, Vite, Gulp.js, CI/CD pipelines, Azure, and modern AI tools like ChatGPT,
+                            Copilot, and Cursor.
+                        </p>
+                        <span class="badge bg-light text-primary p-2">25+ Projects</span>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 border-0 p-4">
+                        <div class="mb-3 fs-1 text-primary"><i class="fas fa-tools"></i></div>
+                        <h5 class="fw-bold mb-3">Frontend Architecture</h5>
+                        <p class="text-muted">
+                            Design scalable frontend architectures using reusable components, state management (Redux
+                            Toolkit), and performance
+                            optimization.
+                        </p>
+                        <span class="badge bg-light text-primary p-2">Scalable Architecture</span>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 overflow-hidden">
+        <div class="container">
+            <div class="section-label mb-4 d-inline-block" data-aos="fade-up">
+                <span class="text-uppercase fw-semibold">About Me</span>
+            </div>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+
+                    <h2 class="display-5 fw-bold mb-4">Frontend Developer | 5 Years Experience</h2>
+                    <p class="text-muted mb-3">
+                        React JS Developer with 5+ years of overall experience, including 3 years in frontend
+                        development and 2 years in sales and marketing. Skilled in building scalable, high-performance
+                        web applications using React.js, Next.js, Redux Toolkit, and TypeScript. Experienced in
+                        developing responsive, user-friendly interfaces and converting Figma/Adobe XD designs into
+                        pixel-perfect UI. Strong understanding of REST API integration, state management, and
+                        performance optimization. Comfortable working in Agile/Scrum environments and collaborating with
+                        cross-functional teams. Focused on delivering clean, maintainable, and impactful digital
+                        solutions.
+                    </p>
+                    <p class="text-muted mb-4"><strong>Location:</strong> Pune, India | <strong>Focus:</strong> Clean,
+                        maintainable and user-centric frontend products.</p>
+
+                    <div class="row mb-4">
+                        <div class="col-4">
+                            <div class="stat-number">5+</div>
+                            <p class="text-muted small">Years Experience</p>
+                        </div>
+                        <div class="col-4">
+                            <div class="stat-number">30+</div>
+                            <p class="text-muted small">Key Projects</p>
+                        </div>
+                        <div class="col-4">
+                            <div class="stat-number">3+</div>
+                            <p class="text-muted small">Frontend Years</p>
+                        </div>
+                    </div>
+
+                    <a href="mailto:krupa.patel.1625@gmail.com" class="btn-modern">
+                        <span class="me-2">Hire Me Now</span><i class="fa-solid fa-location-arrow"></i>
+                    </a>
+                </div>
+
+                <div class="col-lg-6 mt-5 mt-md-0" data-aos="fade-left">
+                    <h5 class="fw-bold mb-4"><i class="fas fa-briefcase me-2 text-primary"></i> Experience Timeline</h5>
+                    <div class="ps-5 inline-timeline-container">
+                        <div class="bg-pc inline-timeline-line"></div>
+                        <!-- Current Company -->
+                        <div class="mb-4 pb-3 timeline-item">
+                            <div class="timeline-marker"></div>
+                            <h6 class="fw-bold"><i class="fas fa-star text-primary"></i> Foxberry Technologies Pvt. Ltd
+                            </h6>
+                            <p class="text-muted small mb-2">April 2023 – Present | Pune</p>
+                            <p class="small">
+                                React Js Developer – React.js, Next.js, Redux Toolkit, TypeScript,
+                                Tailwind CSS, Bootstrap, REST API integration, scalable UI architecture.
+                            </p>
+                        </div>
+
+                        <!-- Amura -->
+                        <div class="mb-4 pb-3 timeline-item">
+                            <div class="timeline-marker"></div>
+                            <h6 class="fw-bold"><i class="fas fa-star text-primary"></i> Foxberry Technologies Pvt. Ltd
+                            </h6>
+                            <p class="text-muted small mb-2">Dec 2022 – Apr 2023 | Pune</p>
+                            <p class="small">
+                                React JS Intern – React.js, Redux Toolkit, TypeScript,
+                                responsive UI development, reusable components, REST API integration.
+                            </p>
+                        </div>
+
+                        <!-- X-Byte -->
+                        <div class="pb-3 timeline-item">
+                            <div class="timeline-marker"></div>
+                            <h6 class="fw-bold"><i class="fas fa-star text-primary"></i> Parshv Label Pvt. Ltd</h6>
+                            <p class="text-muted small mb-2">Mar 2019 – Mar 2021 | Ahmedabad</p>
+                            <p class="small">
+                                Sales & Marketing Executive – business communication, requirement understanding,
+                                and customer-centric delivery mindset.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5 bg-light overflow-hidden">
+        <div class="container">
+            <div class="mb-5" data-aos="fade-up">
+                <div class="section-label mb-4 d-inline-block">
+                    <span class="text-uppercase fw-semibold">Education</span>
+                </div>
+                <h2 class="display-6 fw-bold">My Education & Certifications</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="0">
+                    <div class="card h-100 border-0 border-end-5 p-3 p-md-5">
+                        <div class="mb-3 fs-1 text-primary"><i class="fas fa-graduation-cap"></i></div>
+                        <h5 class="card-title fw-bold mb-3">Bachelor of Engineering (Computer Engineering)</h5>
+                        <p class="card-text text-muted">Sanjaybhai Rajguru College, Rajkot</p>
+                        <p class="card-text"><strong>Duration:</strong> Aug 2013 - June 2017</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 border-0 border-end-5 p-3 p-md-5">
+                        <div class="mb-3 fs-1 text-primary"><i class="fas fa-certificate"></i></div>
+                        <h5 class="card-title fw-bold mb-3">React JS Course + Certifications</h5>
+                        <p class="card-text text-muted">Coding Ninjas | HTML, CSS, JavaScript | React JS</p>
+                        <p class="card-text"><strong>Duration:</strong> July 2022 - Nov 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section with progress bars -->
+    <section id="skills" class="py-5 overflow-hidden">
+        <div class="container">
+            <div class="mb-5" data-aos="fade-up">
+                <div class="section-label mb-4 d-inline-block">
+                    <span class="text-uppercase fw-semibold">Skills</span>
+                </div>
+                <h2 class="display-6 fw-bold">Technical Expertise</h2>
+            </div>
+
+            <div class="row g-4">
+                <!-- Frontend Development -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="card h-100 border-0 border-start-5 p-4">
+                        <h6 class="fw-bold mb-3 d-flex align-items-center gap-2">
+                            <span class="bg-pc inline-skill-dot"></span>
+                            Frontend Development
+                        </h6>
+
+                        <div class="d-flex flex-column gap-3">
+
+                            <div>
+                                <small class="fw-600 d-block mb-1">React.js</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-95"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <small class="fw-600 d-block mb-1">Next.js</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-88"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <small class="fw-600 d-block mb-1">JavaScript (ES6+)</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-90"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <small class="fw-600 d-block mb-1">TypeScript</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-85"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <small class="fw-600 d-block mb-1">HTML5</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-98"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <small class="fw-600 d-block mb-1">CSS3</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-95"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <small class="fw-600 d-block mb-1">Bootstrap 5</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-95"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- State & Styling -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 border-0 border-start-5 p-4">
+                        <h6 class="fw-bold mb-3 d-flex align-items-center gap-2">
+                            <span class="bg-pc inline-skill-dot"></span>
+                            State & Styling
+                        </h6>
+
+                        <div class="d-flex flex-column gap-3">
+
+                            <div>
+                                <small class="fw-600 d-block mb-1">Redux / Redux Toolkit</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-92"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <small class="fw-600 d-block mb-1">Tailwind CSS</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-90"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <small class="fw-600 d-block mb-1">Sass / SCSS</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-97"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <small class="fw-600 d-block mb-1">Responsive Design</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-98"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Workflow -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 border-0 border-start-5 p-4">
+                        <h6 class="fw-bold mb-3 d-flex align-items-center gap-2">
+                            <span class="bg-pc inline-skill-dot"></span>
+                            Tools & Workflow
+                        </h6>
+
+                        <div class="d-flex flex-column gap-3">
+
+                            <div>
+                                <small class="fw-600 d-block mb-1">Git & GitHub</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-90"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <small class="fw-600 d-block mb-1">Vite / Gulp.js</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-88"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <small class="fw-600 d-block mb-1">CI/CD</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-82"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <small class="fw-600 d-block mb-1">Jest + RTL</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-75"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <small class="fw-600 d-block mb-1">Figma to Code</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-94"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <small class="fw-600 d-block mb-1">Git + GitHub</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-80"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <small class="fw-600 d-block mb-1">AI Tools (ChatGPT, Copilot, Gemini)</small>
+                                <div class="progress">
+                                    <div class="skill-progress inline-skill-progress-w-85"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section with FancyBox gallery -->
+    <section id="portfolio" class="py-5 bg-light overflow-hidden">
+        <div class="container pb-5">
+            <div class="mb-5" data-aos="fade-up">
+                <div class="section-label mb-4 d-inline-block">
+                    <span class="text-uppercase fw-semibold">Portfolio</span>
+                </div>
+                <h2 class="display-6 fw-bold">Real Projects Delivered</h2>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- F-Track -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="card h-100 border-0 p-0 project-card mb-0">
+                        <div class="project-image">
+                            <div href="assets/images/1.webp" data-fancybox="gallery" data-caption="Sany">
+                                <img src="assets/images/1.webp" alt="Sany">
+                                <div class="project-overlay">
+                                    <a href="assets/images/1.webp" data-fancybox="gallery" title="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="https://www.sany.in/" target="_blank" title="Open Website">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 project-card-title">
+                            <h5 class="card-title fw-bold mb-0">F-Track</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SFG -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 border-0 p-0 project-card mb-0">
+                        <div class="project-image">
+                            <div href="assets/images/2.webp" data-fancybox="gallery" data-caption="HROne">
+                                <img src="assets/images/2.webp" alt="HROne">
+                                <div class="project-overlay">
+                                    <a href="assets/images/2.webp" data-fancybox="gallery" title="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="https://hrone.cloud/" target="_blank" title="Open Website">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 project-card-title">
+                            <h5 class="card-title fw-bold mb-0">Sri Family Guide</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- attendance management system -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 border-0 p-0 project-card mb-0">
+                        <div class="project-image">
+                            <div href="assets/images/5.webp" data-fancybox="gallery" data-caption="NPAV">
+                                <img src="assets/images/5.webp" alt="NPAV">
+                                <div class="project-overlay">
+                                    <a href="assets/images/5.webp" data-fancybox="gallery" title="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="http://npav.wpstaging.amura.in/" target="_blank" title="Open Website">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 project-card-title">
+                            <h5 class="card-title fw-bold mb-0">Attendance Management System</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- mehsul -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100 border-0 p-0 project-card mb-0">
+                        <div class="project-image">
+                            <div href="assets/images/6.webp" data-fancybox="gallery" data-caption="Uneecops">
+                                <img src="assets/images/6.webp" alt="Uneecops">
+                                <div class="project-overlay">
+                                    <a href="assets/images/6.webp" data-fancybox="gallery" title="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="https://www.uneecops.com/" target="_blank" title="Open Website">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 project-card-title">
+                            <h5 class="card-title fw-bold mb-0">Mehsul Revenue Department</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- access control -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card h-100 border-0 p-0 project-card mb-0">
+                        <div class="project-image">
+                            <div href="assets/images/4.webp" data-fancybox="gallery" data-caption="Land Global">
+                                <img src="assets/images/4.webp" alt="Land Global">
+                                <div class="project-overlay">
+                                    <a href="assets/images/4.webp" data-fancybox="gallery" title="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="https://land.global/" target="_blank" title="Open Website">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 project-card-title">
+                            <h5 class="card-title fw-bold mb-0">Access Control System</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education MIS -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card h-100 border-0 p-0 project-card mb-0">
+                        <div class="project-image">
+                            <div href="assets/images/7.webp" data-fancybox="gallery"
+                                data-caption="Natural Remedies Humanhealth">
+                                <img src="assets/images/7.webp" alt="Natural Remedies Humanhealth">
+                                <div class="project-overlay">
+                                    <a href="assets/images/7.webp" data-fancybox="gallery" title="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="https://naturalremedieshumanhealth.com/" target="_blank"
+                                        title="Open Website">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 project-card-title">
+                            <h5 class="card-title fw-bold mb-0">School Management Information System</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nafis -->
+                <!-- <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card h-100 border-0 p-0 project-card mb-0">
+                        <div class="project-image">
+                            <div href="assets/images/Nafis.png" data-fancybox="gallery" data-caption="Nafis">
+                                <img src="assets/images/Nafis.png" alt="Nafis">
+                                <div class="project-overlay">
+                                    <a href="assets/images/Nafis.png" data-fancybox="gallery" title="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="https://nafis.gov.ae/" target="_blank" title="Open Website">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 project-card-title">
+                            <h5 class="card-title fw-bold mb-0">React + Redux Toolkit Apps</h5>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- M12 -->
+                <!-- <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card h-100 border-0 p-0 project-card mb-0">
+                        <div class="project-image">
+                            <div href="assets/images/m12.png" data-fancybox="gallery" data-caption="M12">
+                                <img src="assets/images/m12.png" alt="M12">
+                                <div class="project-overlay">
+                                    <a href="assets/images/m12.png" data-fancybox="gallery" title="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="" target="_blank" title="Open Website">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 project-card-title">
+                            <h5 class="card-title fw-bold mb-0">TypeScript Frontend Solutions</h5>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5 overflow-hidden">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-4 col-5">
+                    <h6 class="fw-bold mb-3 text-white">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-7">
+                    <h6 class="fw-bold mb-3 text-white">Contact</h6>
+                    <ul class="footer-links">
+                        <li><a href="tel:+919106647839">+91 91066 47839</a></li>
+                        <li><a href="mailto:krupa.patel.1625@gmail.com">krupa.patel.1625@gmail.com</a></li>
+                        <!-- <li><a href="https://github.com/krupa-modi">GitHub</a></li> -->
+                        <!-- <li><a href="https://www.linkedin.com/in/krupa-modi-4328a51b4">LinkedIn</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-md-4 col-6">
+                    <h6 class="fw-bold mb-3 text-white">Availability</h6>
+                    <p class="small mb-3">Immediate Joiner</p>
+                    <div class="footer-social">
+
+                        <!-- Email -->
+                        <a href="mailto:krupa.patel.1625@gmail.com" title="Email">
+                            <i class="fas fa-envelope text-white"></i>
+                        </a>
+
+                        <!-- Phone -->
+                        <a href="tel:+919106647839" title="Call">
+                            <i class="fas fa-phone text-white"></i>
+                        </a>
+
+                        <!-- WhatsApp -->
+                        <a href="https://wa.me/919106647839" target="_blank" title="WhatsApp">
+                            <i class="fab fa-whatsapp text-white"></i>
+                        </a>
+
+                        <!-- GitHub -->
+                        <a href="https://github.com/krupa-modi" target="_blank" title="GitHub">
+                            <i class="fab fa-github text-white"></i>
+                        </a>
+
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/krupa-modi-4328a51b4" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin text-white"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="border-top border-secondary pt-5 text-center">
+                <p class="text-white small mb-0">&copy; 2026 Krupa Modi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery (required for FancyBox v3) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- FancyBox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Inline JS (wrapped for DOM readiness) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Initialize AOS
+            if (window.AOS) AOS.init({ duration: 900, offset: 100, once: true });
+
+            // Navbar scroll effect
+            const navbar = document.querySelector('.navbar');
+            function onScroll() {
+                if (window.scrollY > 50) navbar.classList.add('scrolled');
+                else navbar.classList.remove('scrolled');
+            }
+            window.addEventListener('scroll', onScroll);
+            onScroll();
+
+            // Smooth scrolling for local anchors only
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const href = this.getAttribute('href');
+                    if (!href || href === '#') return;
+                    // skip if it's not an in-page hash (e.g., mailto or external)
+                    if (!href.startsWith('#')) return;
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                });
+            });
+
+            // Active nav link on scroll
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+            function updateActiveLink() {
+                let current = '';
+                sections.forEach(sec => {
+                    const top = sec.offsetTop - 200;
+                    if (pageYOffset >= top) current = sec.id;
+                });
+                navLinks.forEach(link => {
+                    link.classList.toggle('active', link.getAttribute('href') === `#${current}`);
+                });
+            }
+            window.addEventListener('scroll', updateActiveLink);
+            updateActiveLink();
+
+            // FancyBox init (if loaded)
+            if (window.jQuery && jQuery.fancybox) {
+                $('[data-fancybox]').fancybox({
+                    buttons: ['slideShow', 'fullScreen', 'share', 'download', 'zoom', 'close'],
+                    protect: true
+                });
+            }
+
+            // Simple counter logic (keeps your original behavior)
+            let countersStarted = false;
+            function startCounters() {
+                if (countersStarted) return; countersStarted = true;
+                document.querySelectorAll('.stat-number').forEach(el => {
+                    const raw = el.dataset.target || el.textContent.replace('+', '').trim();
+                    const target = parseInt(raw) || 0;
+                    let current = 0;
+                    const step = Math.max(1, Math.round(target / 30));
+                    const id = setInterval(() => {
+                        current += step;
+                        if (current >= target) { el.textContent = target + '+'; clearInterval(id); }
+                        else el.textContent = current + '+';
+                    }, 30);
+                });
+            }
+            // observe about section
+            const about = document.getElementById('about');
+            if (about && window.IntersectionObserver) {
+                const obs = new IntersectionObserver(entries => {
+                    entries.forEach(e => { if (e.isIntersecting) startCounters(); });
+                }, { threshold: 0.5 });
+                obs.observe(about);
+            }
+
+            const themeToggle = $('#theme-toggle');
+            const themeIcon = themeToggle.find('i');
+
+            // Load saved theme from localStorage
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                $('body').addClass('dark-mode');
+                themeIcon.removeClass('fa-moon').addClass('fa-sun');
+            }
+
+            // Toggle theme on button click
+            themeToggle.on('click', function () {
+                $('body').toggleClass('dark-mode');
+
+                if ($('body').hasClass('dark-mode')) {
+                    themeIcon.removeClass('fa-moon').addClass('fa-sun');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    themeIcon.removeClass('fa-sun').addClass('fa-moon');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
