@@ -547,15 +547,15 @@
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                     <div class="card h-100 border-0 p-0 project-card mb-0">
                         <div class="project-image">
-                            <div href="assets/images/1.png" data-fancybox="gallery" data-caption="f-Track">
-                                <img src="assets/images/1.png" alt="Sany">
+                            <div class="project-image-in h-100">
+                                <img src="assets/images/1.png" alt="F-Track">
                                 <div class="project-overlay">
-                                    <a href="assets/images/1.png" data-fancybox="gallery" title="View Project">
+                                    <a href="assets/images/1.png" data-fancybox="gallery" data-caption="F-Track" title="Preview Image">
                                         <i class="fas fa-eye"></i>
                                     </a>
-                                    <a href="https://www.sany.in/" target="_blank" title="Open Website">
-                                        <i class="fas fa-link"></i>
-                                    </a>
+                                    <button type="button" class="project-detail-btn" title="View Details" data-popup="popup-ftrack">
+                                        <i class="fas fa-circle-info"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -563,21 +563,100 @@
                             <h5 class="card-title fw-bold mb-0">F-Track</h5>
                         </div>
                     </div>
+                    <template id="popup-ftrack">
+                        <h5 class="project-popup-title fw-bold">FTrack – Role-Based Task & Workforce Management System</h5>
+                    
+                        <div class="project-modal-image mb-4">
+                            <img src="assets/images/1.png" alt="FTrack" class="img-fluid rounded w-100">
+                        </div>
+                    
+                        <div class="project-detail-content text-muted">
+                            <p>
+                                FTrack is a comprehensive role-based task and workforce management system designed to streamline project
+                                execution, employee management, and organizational productivity. The platform supports multiple user roles
+                                including Admin, HR, Project Manager, Team Lead, and Employee, providing a structured workflow for task
+                                planning, assignment, tracking, and performance monitoring.
+                            </p>
+                    
+                            <ul>
+                                <li><strong>Developed</strong> a complete task lifecycle workflow including Create, Assign, Start, Pause,
+                                    Resume, Complete, Review, and Quality Check stages.</li>
+                    
+                                <li><strong>Designed</strong> an advanced Planner Module allowing Managers and Team Leads to assign multiple
+                                    tasks to multiple employees in a single operation.</li>
+                    
+                                <li><strong>Implemented</strong> dynamic "Add Row" functionality to create a single plan with multiple
+                                    employees
+                                    and different tasks for bulk assignment.</li>
+                    
+                                <li><strong>Built</strong> a detailed Planner View Module for reviewing task requirements and assigning
+                                    tasks
+                                    efficiently.</li>
+                    
+                                <li><strong>Enabled</strong> cross-department task assignments and self-task creation to improve
+                                    collaboration
+                                    and operational flexibility.</li>
+                    
+                                <li><strong>Developed</strong> a hierarchical reporting structure where employees can create tasks while
+                                    maintaining approval workflows through Team Leads.</li>
+                    
+                                <li><strong>Implemented</strong> support for multiple subtasks under a single task for improved task
+                                    breakdown
+                                    and execution tracking.</li>
+                    
+                                <li><strong>Created</strong> an HR approval workflow with employee registration approval/rejection and
+                                    role-based access control.</li>
+                    
+                                <li><strong>Developed</strong> employee allocation features for assigning employees under specific Team
+                                    Leads
+                                    and Project Managers.</li>
+                    
+                                <li><strong>Built</strong> role-based dashboards with analytics to monitor task progress, pending work,
+                                    completed tasks, employee productivity, and team performance.</li>
+                    
+                                <li><strong>Implemented</strong> a Resource Utilization Module providing insights into employee workload,
+                                    productivity, task history, and pending assignments.</li>
+                    
+                                <li><strong>Added</strong> Excel export functionality for generating utilization and performance reports.
+                                </li>
+                    
+                                <li><strong>Provided</strong> detailed tracking of task execution time, efficiency metrics, and productivity
+                                    analytics for data-driven decision-making.</li>
+                    
+                                <li><strong>Used</strong> Redux for centralized state management and predictable application behavior.</li>
+                    
+                                <li><strong>Created</strong> reusable UI components including forms, filters, tables, dropdowns, and modals
+                                    to
+                                    improve scalability and maintainability.</li>
+                    
+                                <li><strong>Improved</strong> overall organizational productivity through structured workflow management,
+                                    real-time tracking, and resource optimization.</li>
+                            </ul>
+                    
+                            <p>
+                                <strong>Role:</strong> Frontend Developer
+                            </p>
+                    
+                            <p>
+                                <strong>Technologies:</strong> React.js, Redux, JavaScript, HTML5, CSS3, Bootstrap, REST APIs, Git
+                            </p>
+                        </div>
+                    </template>
                 </div>
 
                 <!-- SFG -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100 border-0 p-0 project-card mb-0">
                         <div class="project-image">
-                            <div href="assets/images/2.png" data-fancybox="gallery" data-caption="SFG">
-                                <img src="assets/images/2.png" alt="HROne">
+                            <div class="project-image-in h-100">
+                                <img src="assets/images/2.png" alt="Sri Family Guide">
                                 <div class="project-overlay">
-                                    <a href="assets/images/2.png" data-fancybox="gallery" title="View Project">
+                                    <a href="assets/images/2.png" data-fancybox="gallery" data-caption="Sri Family Guide" title="Preview Image">
                                         <i class="fas fa-eye"></i>
                                     </a>
-                                    <a href="https://hrone.cloud/" target="_blank" title="Open Website">
-                                        <i class="fas fa-link"></i>
-                                    </a>
+                                    <button type="button" class="project-detail-btn" title="View Details" data-popup="popup-sfg">
+                                        <i class="fas fa-circle-info"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -585,21 +664,103 @@
                             <h5 class="card-title fw-bold mb-0">Sri Family Guide</h5>
                         </div>
                     </div>
+                    <template id="popup-sfg">
+                        <h5 class="project-popup-title fw-bold">Spiritual Content & Event Management Platform</h5>
+                    
+                        <div class="project-modal-image mb-4">
+                            <img src="assets/images/8.png" alt="Spiritual Content & Event Management Platform"
+                                class="img-fluid rounded w-100">
+                        </div>
+                    
+                        <div class="project-detail-content text-muted">
+                            <p>
+                                Spiritual Content & Event Management Platform is a comprehensive digital ecosystem designed to manage
+                                events,
+                                courses, educational content, user engagement, and online transactions within a spiritual community. The
+                                platform centralizes content administration, event registrations, course enrollments, payment processing,
+                                and
+                                reporting through a scalable and user-friendly interface.
+                            </p>
+                    
+                            <ul>
+                                <li><strong>Developed</strong> a scalable web platform for managing spiritual events, courses, digital
+                                    content,
+                                    and user engagement activities.</li>
+                    
+                                <li><strong>Integrated</strong> EaseeBuzz Payment Gateway to provide secure and seamless online payment
+                                    processing for event registrations and course purchases.</li>
+                    
+                                <li><strong>Implemented</strong> a unified purchase workflow allowing users to purchase multiple events and
+                                    courses in a single transaction.</li>
+                    
+                                <li><strong>Built</strong> an automated Invoice Management System that generates downloadable invoices and
+                                    maintains complete transaction records after successful payments.</li>
+                    
+                                <li><strong>Developed</strong> a comprehensive Content Management System (CMS) for managing videos,
+                                    articles,
+                                    blogs, event content, and educational resources.</li>
+                    
+                                <li><strong>Implemented</strong> a Publish/Unpublish workflow enabling administrators to control content
+                                    visibility and schedule content releases efficiently.</li>
+                    
+                                <li><strong>Designed and developed</strong> an Admin Dashboard for managing events, courses, users,
+                                    payments,
+                                    registrations, and digital content from a centralized interface.</li>
+                    
+                                <li><strong>Created</strong> event management modules including event creation, updates, registrations,
+                                    participant tracking, and status monitoring.</li>
+                    
+                                <li><strong>Developed</strong> course management features for organizing course information, enrollment
+                                    workflows, and content accessibility.</li>
+                    
+                                <li><strong>Built</strong> secure role-based access control mechanisms to ensure proper authorization for
+                                    administrators and content managers.</li>
+                    
+                                <li><strong>Implemented</strong> payment tracking and transaction history modules for monitoring purchases
+                                    and
+                                    financial records.</li>
+                    
+                                <li><strong>Designed</strong> responsive and user-friendly interfaces to deliver a seamless experience
+                                    across
+                                    desktop, tablet, and mobile devices.</li>
+                    
+                                <li><strong>Created</strong> reusable UI components, forms, tables, filters, and modal systems to improve
+                                    maintainability and accelerate development.</li>
+                    
+                                <li><strong>Optimized</strong> application performance by integrating content management, event
+                                    registration,
+                                    and payment workflows into a single platform.</li>
+                    
+                                <li><strong>Enhanced</strong> user engagement and operational efficiency through centralized administration,
+                                    secure payment handling, and streamlined event and course management.</li>
+                            </ul>
+                    
+                            <p>
+                                <strong>Role:</strong> Frontend Developer
+                            </p>
+                    
+                            <p>
+                                <strong>Technologies:</strong> React.js, TypeScript, Redux Toolkit, Tailwind CSS, HTML5, REST APIs,
+                                EaseeBuzz
+                                Payment Gateway
+                            </p>
+                        </div>
+                    </template>
                 </div>
 
                 <!-- attendance management system -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="card h-100 border-0 p-0 project-card mb-0">
                         <div class="project-image">
-                            <div href="assets/images/3.png" data-fancybox="gallery" data-caption="Attendance">
-                                <img src="assets/images/3.png" alt="NPAV">
+                            <div class="project-image-in h-100">
+                                <img src="assets/images/3.png" alt="Attendance Management System">
                                 <div class="project-overlay">
-                                    <a href="assets/images/3.png" data-fancybox="gallery" title="View Project">
+                                    <a href="assets/images/3.png" data-fancybox="gallery" data-caption="Attendance Management System" title="Preview Image">
                                         <i class="fas fa-eye"></i>
                                     </a>
-                                    <a href="http://npav.wpstaging.amura.in/" target="_blank" title="Open Website">
-                                        <i class="fas fa-link"></i>
-                                    </a>
+                                    <button type="button" class="project-detail-btn" title="View Details" data-popup="popup-attendance">
+                                        <i class="fas fa-circle-info"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -607,21 +768,82 @@
                             <h5 class="card-title fw-bold mb-0">Attendance Management System</h5>
                         </div>
                     </div>
+                    <template id="popup-attendance">
+                        <h5 class="project-popup-title fw-bold">Attendance Management System</h5>
+                    
+                        <div class="project-modal-image mb-4">
+                            <img src="assets/images/5.png" alt="Attendance Management System" class="img-fluid rounded w-100">
+                        </div>
+                    
+                        <div class="project-detail-content text-muted">
+                            <p>
+                                Attendance Management System is a comprehensive workforce tracking solution designed for remote employees,
+                                consisting of both web and mobile applications. The platform enables organizations to efficiently manage
+                                attendance, employee onboarding, leave requests, workforce monitoring, and location-based verification while
+                                providing real-time visibility into employee activities and productivity.
+                            </p>
+                    
+                            <ul>
+                                <li><strong>Developed</strong> a complete Attendance Management System with web and mobile applications to
+                                    streamline attendance tracking and workforce management.</li>
+                    
+                                <li><strong>Implemented</strong> an employee onboarding and approval workflow where first-time login
+                                    requests
+                                    are reviewed and approved by HR before granting system access.</li>
+                    
+                                <li><strong>Built</strong> attendance punch-in and punch-out functionality with photo capture, remarks
+                                    submission, and automatic timestamp recording for accurate work-hour tracking.</li>
+                    
+                                <li><strong>Integrated</strong> geolocation tracking by capturing employee latitude and longitude during
+                                    attendance marking to verify remote workforce activities.</li>
+                    
+                                <li><strong>Developed</strong> a leave management module allowing employees to submit leave requests and
+                                    track
+                                    approval status through the HR portal.</li>
+                    
+                                <li><strong>Implemented</strong> device-specific authentication to restrict access to authorized devices and
+                                    prevent multiple simultaneous logins.</li>
+                    
+                                <li><strong>Built</strong> HR dashboards for monitoring employee attendance, working hours, leave requests,
+                                    and
+                                    attendance history with real-time visibility.</li>
+                    
+                                <li><strong>Added</strong> attendance reporting and employee activity tracking modules to support workforce
+                                    monitoring and productivity analysis.</li>
+                    
+                                <li><strong>Optimized</strong> search and filtering functionality using debounce techniques, reducing
+                                    unnecessary API calls and improving application performance.</li>
+                    
+                                <li><strong>Created</strong> responsive and reusable UI components for both web and mobile platforms,
+                                    ensuring
+                                    scalability, maintainability, and a seamless user experience.</li>
+                            </ul>
+                    
+                            <p>
+                                <strong>Role:</strong> Frontend Developer
+                            </p>
+                    
+                            <p>
+                                <strong>Technologies:</strong> React.js, React Native, TypeScript, Redux Toolkit, Vite, Tailwind CSS, REST
+                                APIs
+                            </p>
+                        </div>
+                    </template>
                 </div>
 
                 <!-- mehsul -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="card h-100 border-0 p-0 project-card mb-0">
                         <div class="project-image">
-                            <div href="assets/images/6.webp" data-fancybox="gallery" data-caption="Uneecops">
-                                <img src="assets/images/6.webp" alt="Uneecops">
+                            <div class="project-image-in h-100">
+                                <img src="assets/images/4.jpeg" alt="Mehsul Revenue Department">
                                 <div class="project-overlay">
-                                    <a href="assets/images/6.webp" data-fancybox="gallery" title="View Project">
+                                    <a href="assets/images/4.jpeg" data-fancybox="gallery" data-caption="Mehsul Revenue Department" title="Preview Image">
                                         <i class="fas fa-eye"></i>
                                     </a>
-                                    <a href="https://www.uneecops.com/" target="_blank" title="Open Website">
-                                        <i class="fas fa-link"></i>
-                                    </a>
+                                    <button type="button" class="project-detail-btn" title="View Details" data-popup="popup-mehsul">
+                                        <i class="fas fa-circle-info"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -629,21 +851,88 @@
                             <h5 class="card-title fw-bold mb-0">Mehsul Revenue Department</h5>
                         </div>
                     </div>
+                    <template id="popup-mehsul">
+                        <h5 class="project-popup-title fw-bold">Mehsul Revenue Department – Survey Management System</h5>
+                    
+                        <div class="project-modal-image mb-4">
+                            <img src="assets/images/3.png" alt="Mehsul Revenue Department Survey Management System"
+                                class="img-fluid rounded w-100">
+                        </div>
+                    
+                        <div class="project-detail-content text-muted">
+                            <p>
+                                The Mehsul Revenue Department Survey Management System is a comprehensive web application developed to
+                                streamline government survey operations. The platform enables efficient survey creation, assignment,
+                                monitoring,
+                                reporting, and departmental collaboration while ensuring secure access and centralized data management.
+                            </p>
+                    
+                            <ul>
+                                <li><strong>Developed</strong> an end-to-end survey management system to facilitate survey creation,
+                                    assignment,
+                                    tracking, and reporting for government department operations.</li>
+                    
+                                <li><strong>Implemented</strong> secure authentication and role-based access control for Admin and
+                                    Department
+                                    users, ensuring controlled access and data security.</li>
+                    
+                                <li><strong>Built</strong> complete CRUD functionality for managing users, departments, surveys, and
+                                    survey-related records.</li>
+                    
+                                <li><strong>Designed</strong> dedicated Admin and Department dashboards for monitoring survey activities,
+                                    workflow management, and operational performance.</li>
+                    
+                                <li><strong>Enabled</strong> department-wise survey assignment, progress tracking, and status monitoring to
+                                    improve execution efficiency.</li>
+                    
+                                <li><strong>Developed</strong> dynamic modal-based reporting and analytics modules for quick access to
+                                    survey
+                                    insights and performance metrics.</li>
+                    
+                                <li><strong>Implemented</strong> survey-wise and department-wise reporting with advanced filtering
+                                    capabilities
+                                    and data visualization features.</li>
+                    
+                                <li><strong>Added</strong> advanced search, filtering, and pagination functionalities to efficiently manage
+                                    large datasets and enhance user experience.</li>
+                    
+                                <li><strong>Optimized</strong> API integration and application state management using Redux Toolkit,
+                                    improving
+                                    performance and data consistency.</li>
+                    
+                                <li><strong>Created</strong> reusable UI components and a scalable frontend architecture to improve
+                                    maintainability and reduce development effort.</li>
+                    
+                                <li><strong>Ensured</strong> responsive and user-friendly interfaces across desktop, tablet, and mobile
+                                    devices.
+                                </li>
+                            </ul>
+                    
+                            <p>
+                                <strong>Role:</strong> Frontend Developer
+                            </p>
+                    
+                            <p>
+                                <strong>Technologies:</strong> React.js, TypeScript, Redux Toolkit, Tailwind CSS, Bootstrap, HTML5, Node.js,
+                                REST APIs
+                            </p>
+                        </div>
+                    </template>
                 </div>
 
                 <!-- access control -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
                     <div class="card h-100 border-0 p-0 project-card mb-0">
                         <div class="project-image">
-                            <div href="assets/images/4.webp" data-fancybox="gallery" data-caption="Land Global">
-                                <img src="assets/images/4.webp" alt="Land Global">
+                            <div class="project-image-in h-100">
+                                <img src="assets/images/5.jpeg" alt="Access Control System">
                                 <div class="project-overlay">
-                                    <a href="assets/images/4.webp" data-fancybox="gallery" title="View Project">
+                                    <a href="assets/images/5.jpeg" data-fancybox="gallery" data-caption="Access Control System" title="Preview Image">
                                         <i class="fas fa-eye"></i>
                                     </a>
-                                    <a href="https://land.global/" target="_blank" title="Open Website">
-                                        <i class="fas fa-link"></i>
-                                    </a>
+                                    <button type="button" class="project-detail-btn" title="View Details" data-popup="popup-access">
+                                        <i class="fas fa-circle-info"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -651,23 +940,93 @@
                             <h5 class="card-title fw-bold mb-0">Access Control System</h5>
                         </div>
                     </div>
+                    <template id="popup-access">
+                        <h5 class="project-popup-title fw-bold">Access Control & Dynamic Permission Management System</h5>
+                    
+                        <div class="project-modal-image mb-4">
+                            <img src="assets/images/6.png" alt="Access Control & Dynamic Permission Management System"
+                                class="img-fluid rounded w-100">
+                        </div>
+                    
+                        <div class="project-detail-content text-muted">
+                            <p>
+                                Access Control & Dynamic Permission Management System is an enterprise-grade platform designed to manage
+                                role-based access, feature-level permissions, department-specific controls, and dynamic application
+                                configurations. The system enables organizations to centrally manage user access, feature visibility,
+                                themes,
+                                and application behavior through a flexible and scalable permission engine.
+                            </p>
+                    
+                            <ul>
+                                <li><strong>Developed</strong> a dynamic Access Control Management System for managing feature-level and
+                                    subfeature-level permissions based on user roles and departments.</li>
+                    
+                                <li><strong>Implemented</strong> Role-Based Access Control (RBAC) with permissions such as View, Add,
+                                    Update,
+                                    Delete, and Manage for individual modules and functionalities.</li>
+                    
+                                <li><strong>Built</strong> a dynamic permission engine where dashboards, menus, routes, buttons, and actions
+                                    are
+                                    automatically rendered based on assigned permissions.</li>
+                    
+                                <li><strong>Developed</strong> department-wise and role-wise access management modules, enabling centralized
+                                    control over application features across multiple teams.</li>
+                    
+                                <li><strong>Implemented</strong> a developer-focused feature lifecycle workflow where newly created features
+                                    remain in an In-Progress state and can later be updated to Completed or Success.</li>
+                    
+                                <li><strong>Designed and developed</strong> a Dynamic Theme Management System allowing administrators to
+                                    configure themes, colors, branding, and UI settings based on departments and user roles.</li>
+                    
+                                <li><strong>Built</strong> centralized admin panels for managing roles, departments, permissions, themes,
+                                    and
+                                    feature configurations.</li>
+                    
+                                <li><strong>Integrated</strong> secure authentication and authorization mechanisms to ensure users can
+                                    access
+                                    only the resources assigned to them.</li>
+                    
+                                <li><strong>Developed</strong> REST API integrations for role management, department configuration,
+                                    permission
+                                    assignments, and dynamic theme settings.</li>
+                    
+                                <li><strong>Created</strong> a reusable and scalable frontend architecture using React.js, enabling
+                                    backend-driven dynamic UI rendering.</li>
+                    
+                                <li><strong>Optimized</strong> application maintainability through modular component design, centralized
+                                    state
+                                    management, and Git-based development workflows.</li>
+                    
+                                <li><strong>Designed</strong> the system for cloud deployment with support for AWS/Heroku environments and
+                                    PostgreSQL/MySQL databases.</li>
+                            </ul>
+                    
+                            <p>
+                                <strong>Role:</strong> Frontend Developer
+                            </p>
+                    
+                            <p>
+                                <strong>Technologies:</strong> React.js, TypeScript, Redux Toolkit, Tailwind CSS, Node.js, REST APIs,
+                                PostgreSQL/MySQL, AWS
+                            </p>
+                        </div>
+                    </template>
                 </div>
 
                 <!-- Education MIS -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
                     <div class="card h-100 border-0 p-0 project-card mb-0">
                         <div class="project-image">
-                            <div href="assets/images/4.png" data-fancybox="gallery"
-                                data-caption="Natural Remedies Humanhealth">
-                                <img src="assets/images/4.png" alt="School Management System">
+                            <div class="project-image-in h-100">
+                                <img src="assets/images/4.png" alt="School Management Information System">
                                 <div class="project-overlay">
-                                    <a href="assets/images/4.png" data-fancybox="gallery" title="View Project">
+                                    <a href="assets/images/4.png" data-fancybox="gallery" data-caption="School Management Information System"
+                                        title="Preview Image">
                                         <i class="fas fa-eye"></i>
                                     </a>
-                                    <a href="https://naturalremedieshumanhealth.com/" target="_blank"
-                                        title="Open Website">
-                                        <i class="fas fa-link"></i>
-                                    </a>
+                                    <button type="button" class="project-detail-btn" title="View Details" data-popup="popup-school">
+                                        <i class="fas fa-circle-info"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -675,21 +1034,84 @@
                             <h5 class="card-title fw-bold mb-0">School Management Information System</h5>
                         </div>
                     </div>
+                    <template id="popup-school">
+                        <h5 class="project-popup-title fw-bold">School Management Information System (PCMC)</h5>
+                    
+                        <div class="project-modal-image mb-4">
+                            <img src="assets/images/4.png" alt="School Management Information System" class="img-fluid rounded w-100">
+                        </div>
+                    
+                        <div class="project-detail-content text-muted">
+                            <p>
+                                School Management Information System (SMIS) is a comprehensive educational management platform developed for
+                                PCMC to efficiently manage students, teachers, schools, and administrative operations across multiple zones
+                                and
+                                educational institutions. The system provides centralized data management, role-based access, academic
+                                tracking,
+                                and operational reporting to improve educational administration and decision-making.
+                            </p>
+                    
+                            <ul>
+                                <li><strong>Developed</strong> a scalable School Management Information System for managing student, school,
+                                    teacher, and administrative data across multiple schools and zones.</li>
+                    
+                                <li><strong>Implemented</strong> role-based access control for Super Admin, Zone Admin, and Teacher roles to
+                                    ensure secure and structured data management.</li>
+                    
+                                <li><strong>Built</strong> a centralized student management system with zone-wise and school-wise tracking
+                                    capabilities.</li>
+                    
+                                <li><strong>Developed</strong> seamless student promotion and transfer workflows between classes and
+                                    schools.
+                                </li>
+                    
+                                <li><strong>Created</strong> teacher modules for attendance management, class-wise student monitoring, and
+                                    academic record maintenance.</li>
+                    
+                                <li><strong>Designed and implemented</strong> Mid-Day Meal Management and Balewadi (Pre-Primary Education)
+                                    Management modules for efficient operational tracking.</li>
+                    
+                                <li><strong>Built</strong> marksheet generation and reporting systems with advanced filtering, search
+                                    functionality, and Excel export capabilities.</li>
+                    
+                                <li><strong>Developed</strong> dynamic dashboards providing real-time insights into student enrollment,
+                                    attendance, academic performance, and school statistics.</li>
+                    
+                                <li><strong>Implemented</strong> bulk data import and export features to simplify large-scale student and
+                                    school
+                                    data management.</li>
+                    
+                                <li><strong>Optimized</strong> API integration and centralized state management using Redux Toolkit for
+                                    efficient data handling and real-time updates.</li>
+                    
+                                <li><strong>Created</strong> reusable UI components and responsive interfaces to improve scalability,
+                                    maintainability, and user experience across devices.</li>
+                            </ul>
+                    
+                            <p>
+                                <strong>Role:</strong> Frontend Developer
+                            </p>
+                    
+                            <p>
+                                <strong>Technologies:</strong> React.js, TypeScript, Redux Toolkit, Tailwind CSS, HTML5, REST APIs
+                            </p>
+                        </div>
+                    </template>
                 </div>
 
                 <!-- Preet AI -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
                     <div class="card h-100 border-0 p-0 project-card mb-0">
                         <div class="project-image">
-                            <div href="assets/images/9.png" data-fancybox="gallery" data-caption="Nafis">
+                            <div class="project-image-in h-100">
                                 <img src="assets/images/9.png" alt="Preet AI">
                                 <div class="project-overlay">
-                                    <a href="assets/images/9.png" data-fancybox="gallery" title="View Project">
+                                    <a href="assets/images/9.png" data-fancybox="gallery" data-caption="Preet AI" title="Preview Image">
                                         <i class="fas fa-eye"></i>
                                     </a>
-                                    <a href="https://nafis.gov.ae/" target="_blank" title="Open Website">
-                                        <i class="fas fa-link"></i>
-                                    </a>
+                                    <button type="button" class="project-detail-btn" title="View Details" data-popup="popup-preet">
+                                        <i class="fas fa-circle-info"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -697,21 +1119,87 @@
                             <h5 class="card-title fw-bold mb-0">Preet AI</h5>
                         </div>
                     </div>
+                    <template id="popup-preet">
+                        <h5 class="project-popup-title fw-bold">PREET AI – Workflow Automation & Content Approval Platform</h5>
+                    
+                        <div class="project-modal-image mb-4">
+                            <img src="assets/images/7.png" alt="PREET AI" class="img-fluid rounded w-100">
+                        </div>
+                    
+                        <div class="project-detail-content text-muted">
+                            <p>
+                                PREET AI is an intelligent workflow automation platform developed to digitize and streamline the newspaper
+                                advertisement and press release management process for municipal Public Relations (PR) departments. The
+                                platform
+                                enables structured content creation, review, approval, publication tracking, and AI-powered sentiment
+                                analysis,
+                                significantly improving transparency and operational efficiency.
+                            </p>
+                    
+                            <ul>
+                                <li><strong>Developed</strong> a workflow automation platform to manage the complete lifecycle of newspaper
+                                    advertisements and press releases for municipal PR operations.</li>
+                    
+                                <li><strong>Implemented</strong> a multi-level role-based workflow involving Admin, Department Users,
+                                    Content
+                                    Writers, PR Team, and PRO Department for structured content creation and approval processes.</li>
+                    
+                                <li><strong>Built</strong> a secure Role-Based Access Control (RBAC) system with status-based tracking
+                                    including
+                                    Pending, Draft, Approved, Rejected, and Published stages.</li>
+                    
+                                <li><strong>Integrated</strong> Gemini AI and OpenAI APIs to perform sentiment analysis and automatically
+                                    classify content as Positive, Neutral, or Negative.</li>
+                    
+                                <li><strong>Enabled</strong> sentiment analysis for both manually entered content and uploaded newspaper
+                                    documents to support content evaluation and decision-making.</li>
+                    
+                                <li><strong>Developed</strong> Python microservices for AI processing and seamlessly integrated them with
+                                    backend APIs for automated content analysis.</li>
+                    
+                                <li><strong>Implemented</strong> automated email notifications and approval workflows to keep stakeholders
+                                    informed throughout every stage of the content lifecycle.</li>
+                    
+                                <li><strong>Created</strong> a digital proof management system for storing publication records, newspaper
+                                    details, publication dates, and associated remarks.</li>
+                    
+                                <li><strong>Built</strong> dashboards and reporting modules for tracking content status, approval timelines,
+                                    sentiment analysis trends, and department-wise activities.</li>
+                    
+                                <li><strong>Improved</strong> operational efficiency by reducing manual processes, accelerating approval
+                                    cycles,
+                                    and enhancing transparency across PR departments.</li>
+                    
+                                <li><strong>Developed</strong> reusable frontend components and centralized state management using Redux
+                                    Toolkit
+                                    to ensure scalability and maintainability.</li>
+                            </ul>
+                    
+                            <p>
+                                <strong>Role:</strong> Frontend Developer
+                            </p>
+                    
+                            <p>
+                                <strong>Technologies:</strong> React.js, TypeScript, Redux Toolkit, Tailwind CSS, HTML5, REST APIs, Python,
+                                Gemini AI, OpenAI API
+                            </p>
+                        </div>
+                    </template>
                 </div>
 
                 <!-- Online Clinic Registration -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
                     <div class="card h-100 border-0 p-0 project-card mb-0">
                         <div class="project-image">
-                            <div href="assets/images/6.png" data-fancybox="gallery" data-caption="M12">
+                            <div class="project-image-in h-100">
                                 <img src="assets/images/6.png" alt="Online Clinic Registration">
                                 <div class="project-overlay">
-                                    <a href="assets/images/6.png" data-fancybox="gallery" title="View Project">
+                                    <a href="assets/images/6.png" data-fancybox="gallery" data-caption="Online Clinic Registration" title="Preview Image">
                                         <i class="fas fa-eye"></i>
                                     </a>
-                                    <a href="" target="_blank" title="Open Website">
-                                        <i class="fas fa-link"></i>
-                                    </a>
+                                    <button type="button" class="project-detail-btn" title="View Details" data-popup="popup-clinic">
+                                        <i class="fas fa-circle-info"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -719,6 +1207,71 @@
                             <h5 class="card-title fw-bold mb-0">Online Clinic Registration</h5>
                         </div>
                     </div>
+                    <template id="popup-clinic">
+                        <h5 class="project-popup-title fw-bold">Online Clinic Registration System</h5>
+                    
+                        <div class="project-modal-image mb-4">
+                            <img src="assets/images/2.png" alt="Online Clinic Registration System" class="img-fluid rounded w-100">
+                        </div>
+                    
+                        <div class="project-detail-content text-muted">
+                            <p>
+                                Online Clinic Registration System is a digital healthcare platform designed to simplify clinic registration,
+                                renewal, document management, and approval processes. The system enables healthcare facilities to submit
+                                applications online while providing administrators and reviewers with a streamlined workflow for
+                                verification,
+                                approval, payment processing, and certificate generation.
+                            </p>
+                    
+                            <ul>
+                                <li><strong>Designed and developed</strong> a complete clinic registration and renewal system to digitize
+                                    healthcare facility registration processes.</li>
+                    
+                                <li><strong>Implemented</strong> end-to-end workflows for new registration, renewal, document submission,
+                                    and
+                                    real-time application tracking.</li>
+                    
+                                <li><strong>Built</strong> multi-step forms including Clinic Details, Utilities, and Owner Information with
+                                    comprehensive validation and error handling.</li>
+                    
+                                <li><strong>Developed</strong> a document management system supporting PDF, JPG, and PNG uploads with file
+                                    validation, size restrictions, and upload status tracking.</li>
+                    
+                                <li><strong>Implemented</strong> support for multiple clinic categories including Allopathic, Ayurvedic,
+                                    Homeopathic, and Unani clinics.</li>
+                    
+                                <li><strong>Designed</strong> a multi-level approval workflow involving Reviewer, HOD, Payment Verification,
+                                    and
+                                    Certificate Generation stages.</li>
+                    
+                                <li><strong>Provided</strong> real-time application status updates including Verified, Pending, and Rejected
+                                    states.</li>
+                    
+                                <li><strong>Built</strong> an admin dashboard with analytics, role-based access control, application
+                                    verification, and reporting functionalities.</li>
+                    
+                                <li><strong>Implemented</strong> certificate generation and download functionality after successful approval
+                                    and
+                                    payment verification.</li>
+                    
+                                <li><strong>Created</strong> reusable form components and centralized state management using Redux Toolkit
+                                    for
+                                    better scalability and maintainability.</li>
+                    
+                                <li><strong>Enhanced</strong> user experience through responsive design, progress tracking, validation
+                                    feedback,
+                                    and seamless application submission workflows.</li>
+                            </ul>
+                    
+                            <p>
+                                <strong>Role:</strong> Frontend Developer
+                            </p>
+                    
+                            <p>
+                                <strong>Technologies:</strong> React.js, TypeScript, Redux Toolkit, Tailwind CSS, HTML5, REST APIs
+                            </p>
+                        </div>
+                    </template>
                 </div>
 
             </div>
@@ -789,6 +1342,16 @@
         </div>
     </footer>
 
+    <!-- Custom Project Popup -->
+    <div class="project-popup-overlay" id="projectPopupOverlay" aria-hidden="true">
+        <div class="project-popup-box" role="dialog" aria-modal="true" aria-labelledby="projectPopupTitle">
+            <button type="button" class="project-popup-close" id="projectPopupClose" aria-label="Close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="project-popup-body" id="projectPopupBody"></div>
+        </div>
+    </div>
+
     <!-- jQuery (required for FancyBox v3) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
@@ -852,6 +1415,51 @@
                     protect: true
                 });
             }
+
+            // Custom project popup
+            const popupOverlay = document.getElementById('projectPopupOverlay');
+            const popupBody = document.getElementById('projectPopupBody');
+            const popupClose = document.getElementById('projectPopupClose');
+
+            function openProjectPopup(templateId) {
+                const template = document.getElementById(templateId);
+                if (!template || !popupOverlay || !popupBody) return;
+
+                popupBody.innerHTML = template.innerHTML;
+                popupOverlay.classList.add('is-open');
+                popupOverlay.setAttribute('aria-hidden', 'false');
+                document.body.classList.add('project-popup-open');
+            }
+
+            function closeProjectPopup() {
+                if (!popupOverlay || !popupBody) return;
+                popupOverlay.classList.remove('is-open');
+                popupOverlay.setAttribute('aria-hidden', 'true');
+                document.body.classList.remove('project-popup-open');
+                popupBody.innerHTML = '';
+            }
+
+            document.querySelectorAll('.project-detail-btn').forEach(function (btn) {
+                btn.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    const templateId = btn.getAttribute('data-popup');
+                    if (templateId) openProjectPopup(templateId);
+                });
+            });
+
+            if (popupClose) popupClose.addEventListener('click', closeProjectPopup);
+
+            if (popupOverlay) {
+                popupOverlay.addEventListener('click', function (e) {
+                    if (e.target === popupOverlay) closeProjectPopup();
+                });
+            }
+
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape' && popupOverlay && popupOverlay.classList.contains('is-open')) {
+                    closeProjectPopup();
+                }
+            });
 
             // Simple counter logic (keeps your original behavior)
             let countersStarted = false;
